@@ -46,3 +46,6 @@ document.querySelector('#connection').addEventListener('click', function() {
 	 document.querySelector('#connectionEmail').value = '';
 	document.querySelector('#connectionPassword').value= '';
 })
+
+
+module.exports= router
