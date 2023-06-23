@@ -64,5 +64,3 @@ document.querySelector('#addCity').addEventListener('click', function () {
 
 		});
 });
-
-module.exports = router

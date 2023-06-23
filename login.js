@@ -48,4 +48,3 @@ document.querySelector('#connection').addEventListener('click', function() {
 })
 
 
-module.exports= router
