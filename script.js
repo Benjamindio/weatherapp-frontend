@@ -38,7 +38,7 @@ function updateDeleteCityEventListener() {
 document.querySelector('#addCity').addEventListener('click', function () {
 	const cityName = document.querySelector('#cityNameInput').value;
 
-	fetch('http://localhost:3000/weather', {
+	fetch('https://weatherapp-backend-theta-seven.vercel.app/weather', {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify({ cityName }),
